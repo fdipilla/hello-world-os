@@ -24,3 +24,9 @@ First you need to compile the kernel with `make`, now you are ready to run it wi
 
 
 Primero tenes que compilar el  kernel con `make`, ahora deberias poder correrlo con `make run`
+
+
+Screenshot
+----------
+
+![ScreenShot](/screenshot.png)
