@@ -1,3 +1,4 @@
+#include "kernel.h"
 
 #define TXT_BLANCO 0x07 //blanco sobre negro
 
