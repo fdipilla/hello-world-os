@@ -1,10 +1,8 @@
 #include "kernel.h"
+#include "screen.h"
+
 
 #define TXT_BLANCO 0x07 //blanco sobre negro
-
-void limpiar_pantalla();
-unsigned int imprimir_pantalla(char *, unsigned int );
-void update_cursor(int , int );
 
 
 char *memoria_video = (char *) 0xb8000;
