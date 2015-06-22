@@ -25,6 +25,6 @@ esperar:
         hlt
         jmp esperar
 
-        
+
 section .bss
         align 4
