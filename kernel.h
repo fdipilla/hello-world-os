@@ -1,5 +1,2 @@
 
 void kernel_main();
-
-
-
