@@ -27,11 +27,11 @@ void limpiar_pantalla(){
 
 
 unsigned int imprimir_pantalla(char *string, unsigned int linea){
-    
+
     unsigned int i = 0;
-    
+
     i = (linea*80*2);
-    
+
     while(*string != 0){
         if (*string == '\n'){
             linea++;
@@ -45,6 +45,6 @@ unsigned int imprimir_pantalla(char *string, unsigned int linea){
             i++;
         }
     }
-    
+
     return(1);
 }
