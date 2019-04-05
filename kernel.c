@@ -20,7 +20,7 @@ void kernel_main(){
     imprimir_pantalla("|___|  /\\____/|____(____  /          \\____/____  >");
     imprimir_pantalla("\\/                 \\/                     \\/");
 
-                             
+
 }
 
 
