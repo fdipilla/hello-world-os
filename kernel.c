@@ -7,9 +7,20 @@
 
 char *memoria_video = (char *) 0xb8000;
 
+unsigned int linea = 0;
+
 void kernel_main(){
     limpiar_pantalla();
-    imprimir_pantalla("Hola-OS!",0);
+
+
+    imprimir_pantalla(".__           .__");
+    imprimir_pantalla("|  |__   ____ |  | _____              ____  ______");
+    imprimir_pantalla("|  |  \\ /  _ \\|  | \\__  \\    ______  /  _ \\/  ___/");
+    imprimir_pantalla("|   Y  (  <_> )  |__/ __ \\_ /_____/ (  <_> )___ \\");
+    imprimir_pantalla("|___|  /\\____/|____(____  /          \\____/____  >");
+    imprimir_pantalla("\\/                 \\/                     \\/");
+
+                             
 }
 
 
@@ -26,7 +37,7 @@ void limpiar_pantalla(){
 
 
 
-unsigned int imprimir_pantalla(char *string, unsigned int linea){
+unsigned int imprimir_pantalla(char *string){
 
     unsigned int i = 0;
 
@@ -45,6 +56,7 @@ unsigned int imprimir_pantalla(char *string, unsigned int linea){
             i++;
         }
     }
+    linea++;
 
     return(1);
 }
